@@ -9,4 +9,10 @@ const GOODS = [
     price: 220,
     imgSrc: "bodik.jpg",
   },
+  {
+    name: "Игрушка для мальчика",
+    price: 200,
+    imgSrc:
+      "https://c.ua/image/cache/wp/gj/VladimirGorchakov/Intim/SatisfyerMenOne/photo_2021-09-25_15-05-42-800x800.webp",
+  },
 ];

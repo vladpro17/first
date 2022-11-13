@@ -79,7 +79,7 @@ function renderTabContentById(tabId) {
 function renderGoods() {
   const div = document.createElement("div");
   div.dataset.activeTabContent = "true";
-  div.classname = "product-items";
+  div.className = "product-items";
   for (let i = 0; i < GOODS.length; i++) {
     const product = GOODS[i];
 

@@ -60,7 +60,8 @@ body {
 }
 
 .product-item {
-  width: 100%;
+  width: 33%;
+  height: 500px;
   text-align: center;
   margin: 0 auto;
   border: 1px solid #7a7a7a;
@@ -69,9 +70,14 @@ body {
   font-family: "Open Sans";
   transition: 0.3s ease;
   overflow: hidden;
+  margin-right: 24px;
 }
 
-.product-list img {
+.product-item:last-child {
+  margin-right: 0;
+}
+
+.product-item img {
   display: block;
   width: 100%;
 }
@@ -79,6 +85,7 @@ body {
 .product-list {
   background: #fafafa;
   padding: 15px 0;
+  width: 100%;
 }
 
 .product-list h3 {
@@ -122,4 +129,11 @@ body {
 
 .cart-items-price {
   font-weight: bold;
+}
+
+.product-items {
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
